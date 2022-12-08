@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Quicksand:wght@300&display=swap");
+
+body {
+    background-color: rgb(129, 80, 5);
+    color: #fff;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 200;
+    text-align: center;
+    line-height: 59px;
+    padding: 0 70px;
+    margin: auto;
+}
+
+.stopwatch {
+    margin-top: 5rem;
+    display: grid;
+    justify-items: center;
+    row-gap: 23px;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.gold {
+    font-weight: 800;
+    color: goldenrod;
+    text-shadow: 0 0 0px white, 0 0 50px goldenrod;
+}
+
+.time {
+    font-family: sans-serif, monospace;
+    font-weight: 300;
+    font-size: 48px;
+}
+
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    width: 300px;
+    height: 300px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-family: sans-serif;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    width: 178px;
+}
+
+button {
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:active {
+    transform: scale(.90);
+}
+
+button:hover{
+    color: goldenrod;
+}
+
+.play {
+    display: block;
+}
+
+.pause {
+    display: none;
+}
